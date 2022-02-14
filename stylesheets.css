@@ -1,0 +1,153 @@
+@media (max-width: 800px) {
+  img {
+    width:50%;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+code {
+  font-size:19px;
+  font-weight:bold;
+}
+
+header {
+  font-style:italic;
+}
+
+#formula {
+  background-color:white;
+  padding:4px;
+  display:block;
+  text-align:center; 
+  border-radius:4px;
+}
+
+html {
+  background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(140,214,212,1) 0%, rgba(84,227,225,1) 2%, rgba(39,211,217,1) 12%, rgba(185,237,240,1) 23%, rgba(218,235,238,1) 100%);
+}
+
+#main-doc {
+  position:absolute;
+  margin-left:440px;
+  padding:20px;
+  margin-bottom:100px;
+  border-left:3px grey solid;
+}
+
+header {
+  font-family:Sans-serif;
+  color:#0C2D48;
+}
+
+
+p, li {
+  font-family:Tahoma;
+}
+
+
+#navbar {
+  position:fixed;
+}
+
+#navbar li {
+  border:4px outset;
+}
+
+navbar a {
+  display:block;
+}
+
+#navigation li {
+  margin:15px 0 15px 0;
+  padding-top:10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+ul {
+  list-style-image: linear-gradient(to left bottom, green, blue);
+}
+
+#navigation {
+ list-style:none;
+}
+
+img {
+  height:260px;
+  width:auto;
+  float:left;
+  border-radius:8px;
+}
+
+
+section {
+  padding:15px;
+}
+
+#forestAreaId {
+  height:25px;
+  border-radius:5px; 
+  font-size:18px;
+}
+
+#result {
+  font-size:20px;
+}
+
+.fa-water, .fa-pagelines {
+  margin-left:7px;
+}
+
+
+ 
+
+.mybutton {
+  margin-left:40px;
+  background-color:#094d55;
+  width:90px;
+  height:40px;
+  font-size:medium;
+  font-family:Arial, sans-serif;
+  color:white;
+  border:4px outset;
+  border-radius:4px;
+}
+
+.mybutton:hover{
+  background-color:#020024;
+  transform: translateY(-6px); 
+}
+
+.mybutton:active{
+  transform: translateY(-2px); 
+}
+ 
+.mybutton:focus{
+  background-color:#fdbb2d;
+  color:#020024;
+}
+
+a {
+  color:#0C2D48;
+  font-weight:bold;
+}
+
+a:hover {
+  top:-6px;
+  color:#663300;
+}
+
+a:active {
+  top: -6px;
+  color:#333300;
+}
