@@ -103,12 +103,19 @@ section {
 
 #forestAreaId {
   height:25px;
+  border:3px outset grey;
   border-radius:5px; 
   font-size:18px;
 }
 
 #result {
   font-size:20px;
+  background-color:white;
+  width:20%;
+  border-radius:4px;
+  text-align:center;
+  color:#0C2D48;
+  font-weight:bold;
 }
 
 .fa-water, .fa-pagelines {
@@ -132,10 +139,11 @@ section {
 
 .mybutton:hover{
   background-color:#020024;
+  color:#fdbb2d;
   transform: translateY(-6px); 
 }
 
-.mybutton:active{
+.mybutton:active, #formula {
   transform: translateY(-2px); 
 }
  
@@ -143,6 +151,12 @@ section {
   background-color:#fdbb2d;
   color:#020024;
 }
+  
+  #formula:hover{
+    transform: translateY(-6px);
+    color:#04897c;
+  }
+  
 
 a {
   color:#0C2D48;
